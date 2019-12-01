@@ -1,0 +1,72 @@
+h1 {
+    font-weight: 400;
+    font-size: 1.75em;
+    color: #222;
+    margin-bottom: 60px;
+}
+
+.wrapper {
+    margin: 20px 0;
+    min-height: 440px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 1.15em;
+    display: block;
+    padding: 10px 0;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 1000px) {
+  #aman{
+    position: absolute; right:25%;
+  }
+ input[type="text"] {
+    width: 50%;
+    
+}
+#Progress_Status { 
+  width: 50%; 
+  background-color: #ddd; 
+} 
+  
+#myprogressBar { 
+  width: 0%; 
+  height: 35px; 
+  background-color: #4CAF50; 
+  text-align: center; 
+  line-height: 32px; 
+  color: black; 
+} 
+  
+ 
+
+
+.glow {
+
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
