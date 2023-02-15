@@ -7,5 +7,5 @@ pytube==9.5.2
 requests==2.20.1
 SpeechRecognition==3.8.1
 virtualenv==16.7.5
-Werkzeug==0.15.5
+Werkzeug==2.2.3
 ffmpeg==1.4
